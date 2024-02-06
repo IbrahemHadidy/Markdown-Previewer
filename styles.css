@@ -1,0 +1,36 @@
+#editor,
+#preview {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#editor {
+  margin-bottom: 20px;
+}
+
+#editor:focus,
+#preview:focus {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  border: none;
+  outline: none;
+  resize: vertical;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+#preview {
+  overflow-y: auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
